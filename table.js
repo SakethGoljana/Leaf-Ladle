@@ -1,12 +1,12 @@
 const branchBlueprints = {
     dreamwood: { 
-        name: "Plantopia Dreamwood", 
+        name: "Leaf&Ladle Dreamwood", 
         tables: 12,
         mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019735215174!2d-122.419415684681!3d37.774929779759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808f8e2e3b1b%3A0x2e2e3b1b8e2e3b1b!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1630000000000!5m2!1sen!2sin",
         address: "123 Dreamwood St, San Francisco, CA 94102"
     },
     heavengarden: { 
-        name: "Plantopia Heavengarden", 
+        name: "Leaf&Ladle Heavengarden", 
         tables: 8,
         mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.031057233543!2d-118.243684884623!3d34.052235980601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1630000000000!5m2!1sen!2sin",
         address: "456 Heaven Ave, Los Angeles, CA 90001"
