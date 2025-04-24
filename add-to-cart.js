@@ -513,7 +513,7 @@ document.addEventListener('DOMContentLoaded', () => {
             closed: false
         };
 
-        fetch(`https://plantopiawebsite-final.onrender.com/api/users/${currentUser.id}/orders`, {
+        fetch(`https://leaf-ladle.onrender.com/api/users/${currentUser.id}/orders`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(order)
