@@ -83,7 +83,7 @@ async function updateBlueprint() {
 
 async function getReservedTables(branch, date, time) {
     try {
-        const url = `https://plantopiawebsite-final.onrender.com/api/reservations/${branch}/${date}/${time}`;
+        const url = `https://leaf-ladle.onrender.com/api/reservations/${branch}/${date}/${time}`;
         console.log('Fetching reserved tables from:', url);
         const response = await fetch(url);
         if (!response.ok) {
@@ -153,7 +153,7 @@ async function submitReservation(event) {
 
     try {
         console.log('Submitting reservation:', reservation);
-        const response = await fetch(`https://plantopiawebsite-final.onrender.com/api/users/${googleId}/reservations`, {
+        const response = await fetch(`https://leaf-ladle.onrender.com/api/users/${googleId}/reservations`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(reservation)
