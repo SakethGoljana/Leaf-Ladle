@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function fetchOrders() {
         const currentUser = JSON.parse(localStorage.getItem('currentUser')) || { id: 'default-user-id' };
-        fetch(`https://leaf-ladle.onrender.com//api/users/${currentUser.id}/orders`)
+        fetch(`https://leaf-ladle.onrender.com/api/users/${currentUser.id}/orders`)
             .then(response => {
                 if (!response.ok) throw new Error('Failed to fetch orders');
                 return response.json();
