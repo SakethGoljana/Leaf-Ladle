@@ -61,7 +61,7 @@ Ready to cook up this project on your local machine? Follow these steps to get L
 ### Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/<your-username>/leaf-and-ladle.git
+   git clone https://github.com/SakethGoljana/leaf-ladle.git
    cd leaf-and-ladle
    ```
 
